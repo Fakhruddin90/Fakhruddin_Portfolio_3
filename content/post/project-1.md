@@ -1,0 +1,13 @@
+---
+date: 2020-04-09T10:58:08-04:00
+description: "A tool that estimate data science salary"
+featured_image: ""
+# tags: ["scene"]
+title: "Project 1: Data Science Salary Estimator"
+---
+
+* Created a tool that estimates data science salaries (MAE ~ $ 11K) to help data scientists negotiate their income when they get a job.
+* Scraped over 1000 job descriptions from glassdoor using python and selenium
+* Engineered features from the text of each job description to quantify the value companies put on python, excel, aws, and spark.
+* Optimized Linear, Lasso, and Random Forest Regressors using GridsearchCV to reach the best model.
+* Built a client facing API using flask.
